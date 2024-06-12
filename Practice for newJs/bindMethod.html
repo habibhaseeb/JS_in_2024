@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bind working flow</title>
+</head>
+<body>
+    <button style="margin: 0 auto;">Button Clicked</button>
+    <script>
+  class User{
+    constructor(){
+        this.username = "Habibullah"
+        this.server = 'https://localHost:3000'
+        
+        document.querySelector('button').
+        addEventListener('click', this.handleClick.        
+        bind(this))
+    }
+    handleClick() {
+         console.log("button Clicked");
+         console.log(this);
+    }
+} 
+
+const app = new User();
+
+    </script>
+</body>
+</html>
