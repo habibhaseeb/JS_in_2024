@@ -5,7 +5,8 @@ let sumOfIndex = 0;
 let updatedIndex = 1;  
 while(updatedIndex <= userInput){ 
   
-     sumOfIndex += updatedIndex;     // warning you are alert of this error like 1 or i,   
+     sumOfIndex += updatedIndex;  
+ updatedIndex++;   // warning you are   alert of this error like 1 or i,   
   //  but always put i or (updatedIndex)    updatedIndex++; 
 }
   // Note: This code is not executed in terminal because the user can't give input from terminal 
